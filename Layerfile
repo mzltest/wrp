@@ -1,7 +1,6 @@
-MEMORY 2G
 #This is an example webapp.io configuration for Docker!
 FROM vm/ubuntu:18.04
-
+MEMORY 2G
 # To note: Layerfiles create entire VMs, *not* containers!
 
 # install the latest version of Docker, as in the official Docker installation tutorial.
